@@ -1,0 +1,68 @@
+body {
+  font-family: "Space Grotesk";
+  background-color: #8062D6;
+  color: #2E0249;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: "Space Mono";
+  color: #A91079;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+.card {
+  background-color: #79E0EE;
+  padding: 25px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 50px;
+  border: 5px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 720px) {
+  #profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 960px) {
+  #profile-pic {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 3840px) {
+  #profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+
+a {
+  text-decoration: none;
+  color: #35155D;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.ss ease;
+}
+
+a:hover {
+  color: #4477CE;
+}
